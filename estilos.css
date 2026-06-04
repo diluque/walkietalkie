@@ -1,1 +1,36 @@
+body {
+    background-color: orange;
+    text-align: center;
+}
 
+h1 {
+    color: white;
+    text-align: center;
+    background-color: orange;
+}
+
+button {
+    color: white;
+    text-align: center;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease 0.1s ease;
+    box-shadow: 0 4px 0 #2c80b4;
+
+    /*cuando se presiona el boton se activa el efecto de presionado*/
+    .btn:active {
+        transform: translateY(4px);
+        box-shadow: 0 0 0 #2c80b4;
+    }
+
+
+}
