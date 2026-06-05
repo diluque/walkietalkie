@@ -9,6 +9,7 @@ h1 {
     background-color: orange;
 }
 
+/*
 .boton {
     padding: 100px 100px;
     font-size: 36px;
@@ -23,7 +24,35 @@ h1 {
 
 .boton:active {
     transform: translateY(5px);
-    box-shadow: 0 0 #2e7d32;
+    box-shadow: 0 0 #2e7d32; */
+
+
+button {
+    padding: 100px 100px;
+    font-size: 36px;
+    border-radius: 35px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+
 
 }
 
+button:active {
+    background: red;
+    transform: translateY(3px);
+}
+
+button:hover {
+    background: rgb(10, 136, 42);
+}
+
+#aviso {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(247, 246, 246);
+}
